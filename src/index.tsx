@@ -1,13 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-
-import Editor from './components/Editor';
-import './stylesheets/main.scss';
+import React from "react";
+import ReactDOM from "react-dom";
+import DrawIOEditor from "./App";
+import "./index.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Editor />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <DrawIOEditor />
+    </React.StrictMode>,
+    document.getElementById("root")
 );
